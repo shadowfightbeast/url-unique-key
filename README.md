@@ -1,18 +1,33 @@
-## Getting Started
+# URL Database Command-Line Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+This Java command-line application allows users to interact with a local URL database. The program provides the following features:
 
-The workspace contains two folders by default, where:
+- Store a URL with a unique short key and an initialized usage count.
+- Retrieve a URL by providing its short key and increment the usage count.
+- Get the latest usage count for a given short key.
+- List all stored URLs with their usage counts in JSON format.
+- Exit the program.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Usage Guide
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 1. Starting the Program
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+To start the program, run the following command in the command line:
 
-## Dependency Management
+```bash
+java UrlDatabaseApp
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 2.keyword support on command line
+
+1. storeurl
+2. get
+3. count
+4. list
+5. exit
+
+## Database Schema
+
+open `schema.png `for database schema
