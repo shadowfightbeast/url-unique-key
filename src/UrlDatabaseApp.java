@@ -44,7 +44,7 @@ class UrlDatabase {
     }
 
     private String generateShortKey() {
-        // Logic to generate a unique short key (you can customize this logic)
+        // Logic to generate a unique short key
         return String.valueOf(urlMap.size() + 1);
     }
 
